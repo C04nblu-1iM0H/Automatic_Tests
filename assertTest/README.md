@@ -21,7 +21,7 @@ var should = chai.should();
 let assert = require('chai').assert
 ```
 
-# Задачине
+# Задание
 
 Напишите тесты для функции get(obj, key, defaultValue). Эта функция извлекает значение из объекта при условии, что ключ существует. В ином случае возвращается defaultValue.
 
