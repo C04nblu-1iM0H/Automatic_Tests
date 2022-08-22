@@ -1,0 +1,26 @@
+{
+  "name": "assertesttwo",
+  "version": "1.0.0",
+  "description": "Для того чтобы использовать утверждения (assert) использовал библиотеку Chai\r ## Что такое Chai\r >Chai — это библиотека утверждений , похожая на встроенную в Node библиотеку assert. Это значительно упрощает тестирование, предоставляя вам множество утверждений, которые вы можете запускать против своего кода.\r ## Установка\r Node.js\r chai доступен на npm . Чтобы установить его, введите:\r ```\r $ npm install --save-dev chai\r ```\r ## Применение\r Импортируйте библиотеку в свой код, а затем выберите один из стилей, который вы хотите использовать, — либо assert, expectлибо should:\r ```javascript\r var chai = require('chai');  \r var assert = chai.assert;   \r var expect = chai.expect;    \r var should = chai.should();  \r ```\r или же можно сократить и получить :\r ```javascript\r let assert = require('chai').assert\r ```",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -w",
+    "start": "webpack serve --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "chai": "^4.3.6",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
