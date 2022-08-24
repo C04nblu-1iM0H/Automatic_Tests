@@ -21,7 +21,7 @@ npm i -D power-assert
 ```
 # Настройка webpack.config.js
 
-В созданый ранее файл вставляю следующий код:
+В созданный ранее файл вставляю следующий код:
 
 ```javascript
 module.exports = {
