@@ -3,7 +3,7 @@
 ## Установка
 Для начала установим babel-loader 
 ```
-$ npm install -D babel-loader @babel/cli @babel/core @babel/node @babel/preset-env webpack
+$ npm install -D babel-loader @babel/cli @babel/core @babel/node @babel/preset-env
 ```
 Потом установим сами утверждения power-assert:
 ```
