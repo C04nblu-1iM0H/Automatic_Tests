@@ -13,7 +13,7 @@ npm i -D babel-preset-power-assert
 npm i -D power-assert
 ```
 ## Настройка package.json
-Добавим в объект scripts новый ключь со значением запуск самого текст и ваш файл с тестом который вы указываете отностиельно вашему пути:
+Добавим в объект scripts новый ключь со значением запуск самого теста и ваш файл с тестом который вы указываете отностиельно вашему пути:
 ```javascript
    "scripts": {
     "tests": "babel-node --presets power-assert ./src/index.test.js"
