@@ -26,3 +26,7 @@ Array.prototype.remove = function(elName){
     let index = this.map((item) => item.name).indexOf(elName);
     return this.splice(index, 1);
 }
+
+module.exports = {
+    makeCart
+} 
